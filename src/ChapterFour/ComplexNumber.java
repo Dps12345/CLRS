@@ -12,8 +12,7 @@ public class ComplexNumber {
         int P1 = temp1 - temp2;
         int P2 = (a+b)*(c+d);
         int P3 = temp1 + temp2;
-        int real = P1;
         int imagine= P2 - P3;
-        return "The real is: "+real+" and the imagine is: "+imagine;
+        return "The real is: "+P1+" and the imagine is: "+imagine;
     }
 }
